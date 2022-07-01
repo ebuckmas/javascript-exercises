@@ -6,13 +6,13 @@ const fibonacci = function(number) {
         return 0;
     } else if (num === 1) {
         return 1;
-    } 
+    }
     return fibonacci(num - 2) + (fibonacci(num - 1));
     
 };
 
 
-console.log(fibonacci(25));
+console.log(fibonacci(4));
 
 //fibonacci(4) // returns the 4th member of the series: 3  (1, 1, 2, 3)
 

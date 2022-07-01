@@ -27,7 +27,14 @@ const factorial = function(num) {
     return (num * factorial(num - 1));
   }
 };
-console.log(factorial(10));
+factorial(5);
+
+const factorialAlt = function(n) {
+  return (n != 1) ? n * factorial(n - 1) : 1;
+};
+console.log(factorialAlt(3));
+
+
 // Do not edit below this line
 module.exports = {
   add,
